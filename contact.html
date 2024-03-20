@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <style>
+        .a{
+            padding-left: 1000px;
+            padding-top: 20px;
+        }    
+    </style>
+</head>
+<body>
+    <div class="a" >
+        <nav><h3>
+         <a href="Home.html" style="color:black; target="_blank">Home</a> |
+          <a href="login.html" style="color:black; target="_blank">Login</a> |
+          <a href="index.html" style="color:black; target="_blank">Prediction</a> |
+          <a href="contact.html" style="color:black; target="_blank">Contact Us</a> |
+          <a href="feedback.html" style="color:black; target="_blank">Feedback</a>
+        </h3></nav></div>
+    <section id="contact">
+        <div class="contact-box">
+            <div class="contact-links">
+                <h2>CONTACT</h2>
+                <div class="links">
+                    <div class="link">
+                        <a href="https://www.linkedin.com/in/aniket-bose-388083219/"><img src="https://i.postimg.cc/m2mg2Hjm/linkedin.png" alt="linkedin"></a>
+                    </div>
+                    <div class="link">
+                        <a href="https://github.com/Ani-Bos"><img src="https://i.postimg.cc/YCV2QBJg/github.png" alt="github"></a>
+                    </div>
+                    <div class="link">
+                        <a href=""><img src="https://i.postimg.cc/NjLfyjPB/email.png" alt="email"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-wrapper">
+                <form>
+                    <div class="form-item">
+                        <input type="text" name="sender" required>
+                        <label>Name:</label>
+                    </div>
+                    <div class="form-item">
+                        <input type="text" name="email" required>
+                        <label>Email:</label>
+                    </div>
+                    <div class="form-item">
+                        <textarea class="" name="message" required></textarea>
+                        <label>Message:</label>
+                    </div>
+                    <button class="submit-btn">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+        import { getDatabase,ref, set,get,child } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
+        
+        const firebaseConfig = {
+          apiKey: "AIzaSyADExcRG8VSFJLp4KyJlNHNhG-Lid-PIRA",
+          authDomain: "contact-f356c.firebaseapp.com",
+          projectId: "contact-f356c",
+          storageBucket: "contact-f356c.appspot.com",
+          messagingSenderId: "379498918301",
+          appId: "1:379498918301:web:54039bc5e0120b906d3f74",
+          measurementId: "G-SQF6PJ2VCD"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+        document.getElementById()
+      </script>
+</body>
+</html>
